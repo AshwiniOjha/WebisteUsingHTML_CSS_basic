@@ -1,0 +1,94 @@
+/* BASIC RESET */
+/* by default margin of page(body) is 8px */
+body{
+    /* margin: 0px; */
+    margin: 0rem 2rem;
+}
+
+* {
+    font-family: 'Tapestry', cursive;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: red;
+}
+
+li{
+    list-style: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header>h1{
+    margin-left: 1rem;
+}
+
+ul{
+    width: 25rem;
+    /* border: 1px dashed ; */
+    
+    /* flex */
+    display: flex;
+    justify-content:space-evenly;
+    margin-right: 1rem;
+
+
+}
+ul>li{
+    text-align: center;
+    /* border: 1px dashed red; */
+    width: 30%;
+    font-size: x-large;
+}
+
+/* *********MAIN******** */
+.main-img{
+    width: 100%;
+    height: auto;
+}
+.parent{
+    display: flex;
+    text-align: center;
+    margin-top: 2rem;
+    justify-content: space-evenly;
+}
+.child{
+    width: 30%;
+    /* margin :1px; */
+    /* border: 1px dashed; */
+}
+
+.footer-parent{
+    height: 4rem;
+    background-color: black;
+    /* flexbox : used to perfectly center a div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-child{
+    color: white;
+    /* boldness */
+    font-weight: 400;
+    font-size: 1rem;
+    /* to upper */
+    text-transform: uppercase;
+}
